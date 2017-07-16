@@ -49,13 +49,13 @@ var PayloadPanel = (function() {
     var currentRequestPayloadSetter = Api.setRequestPayload;
     Api.setRequestPayload = function(newPayloadStr) {
       currentRequestPayloadSetter.call(Api, newPayloadStr);
-      displayPayload(settings.payloadTypes.request);
+      //displayPayload(settings.payloadTypes.request);
     };
 
     var currentResponsePayloadSetter = Api.setResponsePayload;
     Api.setResponsePayload = function(newPayload) {
       currentResponsePayloadSetter.call(Api, newPayload);
-      displayPayload(settings.payloadTypes.response);
+      //displayPayload(settings.payloadTypes.response);
     };
   }
 
