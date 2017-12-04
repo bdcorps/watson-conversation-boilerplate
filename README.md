@@ -1,6 +1,6 @@
 # Watson Conversation Boilerplate
 
-Repurposed https://github.com/watson-developer-cloud/conversation-simple to create a beginner friendly Watson Conversation started Node.JS project. 
+Repurposed https://github.com/watson-developer-cloud/conversation-simple to create a beginner friendly Watson Conversation starter Node.JS project. 
 
 ## Usage
 Create your own Watson Conversation service on [IBM Cloud](www.bluemix.net).
