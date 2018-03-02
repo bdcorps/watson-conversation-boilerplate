@@ -1,5 +1,6 @@
 applications:
 - name: watson-cloud-boilerplate
+  buildpack: sdk-for-nodejs
   command: npm start
   path: .
   memory: 256M
